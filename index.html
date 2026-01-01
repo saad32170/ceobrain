@@ -25,6 +25,7 @@
                         <li><a href="#" data-file="principles.md">Principles</a></li>
                         <li><a href="#" data-file="north_star.md">North Star</a></li>
                         <li><a href="#" data-file="memory.md">Memory</a></li>
+                        <li><a href="#" data-file="2026.md">2026 Goals</a></li>
                     </ul>
                 </div>
                 
@@ -78,7 +79,8 @@
                     <span>CEO Personal OS</span>
                 </div>
                 <div class="header-actions">
-                    <button class="btn-edit" id="editBtn" style="display: none;">✏️ Edit</button>
+                    <button class="btn-duplicate" id="duplicateBtn" style="display: none;">Duplicate</button>
+                    <button class="btn-edit" id="editBtn" style="display: none;">Edit</button>
                     <button class="btn-save" id="saveBtn" style="display: none;">💾 Save</button>
                     <button class="btn-cancel" id="cancelBtn" style="display: none;">✕ Cancel</button>
                 </div>
@@ -96,6 +98,24 @@
                 </div>
             </div>
         </main>
+    </div>
+    
+    <!-- Duplicate Modal -->
+    <div class="modal-overlay" id="duplicateModal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Duplicate File</h2>
+                <button class="modal-close" id="closeDuplicateModal">✕</button>
+            </div>
+            <p class="modal-description">Enter a name for the duplicate file:</p>
+            <input type="text" id="duplicateFileName" class="modal-input" placeholder="new-file-name.md">
+            <p class="modal-hint">File will be created in the same directory as the original.</p>
+            <div class="modal-actions">
+                <button class="btn-modal-secondary" id="cancelDuplicateBtn">Cancel</button>
+                <button class="btn-modal-primary" id="confirmDuplicateBtn">Duplicate</button>
+            </div>
+            <div class="modal-error" id="duplicateError" style="display: none;"></div>
+        </div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
