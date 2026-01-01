@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEO Personal OS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>CEO Personal OS</h1>
+                <p class="subtitle">Your Personal Operating System</p>
+            </div>
+            
+            <nav class="nav-menu">
+                <div class="nav-section">
+                    <h3>Core</h3>
+                    <ul>
+                        <li><a href="#" data-file="README.md">README</a></li>
+                        <li><a href="#" data-file="QUICK-START.md">Quick Start</a></li>
+                        <li><a href="#" data-file="MANIFEST.md">Manifest</a></li>
+                        <li><a href="#" data-file="principles.md">Principles</a></li>
+                        <li><a href="#" data-file="north_star.md">North Star</a></li>
+                        <li><a href="#" data-file="memory.md">Memory</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li><a href="#" data-file="frameworks/annual_review.md">Annual Review</a></li>
+                        <li><a href="#" data-file="frameworks/vivid_vision.md">Vivid Vision</a></li>
+                        <li><a href="#" data-file="frameworks/ideal_life_costing.md">Ideal Life Costing</a></li>
+                        <li><a href="#" data-file="frameworks/life_map.md">Life Map</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h3>Interviews</h3>
+                    <ul>
+                        <li><a href="#" data-file="interviews/past_year_reflection.md">Past Year Reflection</a></li>
+                        <li><a href="#" data-file="interviews/identity_and_values.md">Identity & Values</a></li>
+                        <li><a href="#" data-file="interviews/future_self_interview.md">Future Self Interview</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h3>Goals</h3>
+                    <ul>
+                        <li><a href="#" data-file="goals/1_year.md">1 Year</a></li>
+                        <li><a href="#" data-file="goals/3_year.md">3 Years</a></li>
+                        <li><a href="#" data-file="goals/10_year.md">10 Years</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h3>Reviews</h3>
+                    <ul>
+                        <li><a href="#" data-file="reviews/daily/TEMPLATE-daily-checkin.md">Daily Template</a></li>
+                        <li><a href="#" data-file="reviews/daily/2026-01-01.md">Daily Example</a></li>
+                        <li><a href="#" data-file="reviews/weekly/TEMPLATE-weekly-review.md">Weekly Template</a></li>
+                        <li><a href="#" data-file="reviews/weekly/2026-W01.md">Weekly Example</a></li>
+                        <li><a href="#" data-file="reviews/quarterly/TEMPLATE-quarterly-review.md">Quarterly Template</a></li>
+                        <li><a href="#" data-file="reviews/annual/TEMPLATE-annual-review.md">Annual Template</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+        
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <div class="content-header">
+                <button class="menu-toggle" id="menuToggle">☰</button>
+                <div class="breadcrumb" id="breadcrumb">
+                    <span>CEO Personal OS</span>
+                </div>
+                <div class="header-actions">
+                    <button class="btn-edit" id="editBtn" style="display: none;">✏️ Edit</button>
+                    <button class="btn-save" id="saveBtn" style="display: none;">💾 Save</button>
+                    <button class="btn-cancel" id="cancelBtn" style="display: none;">✕ Cancel</button>
+                </div>
+            </div>
+            
+            <div class="markdown-container" id="markdownContainer">
+                <div class="welcome-screen">
+                    <h1>Welcome to Your Personal Operating System</h1>
+                    <p>Select a document from the sidebar to begin.</p>
+                    <div class="quick-links">
+                        <a href="#" data-file="QUICK-START.md" class="quick-link">Quick Start Guide</a>
+                        <a href="#" data-file="north_star.md" class="quick-link">North Star</a>
+                        <a href="#" data-file="README.md" class="quick-link">System Overview</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
