@@ -12,7 +12,8 @@ import webbrowser
 import json
 from pathlib import Path
 
-PORT = 8000
+PORT = 5000
+HOST = "0.0.0.0"
 
 class CustomHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_OPTIONS(self):
@@ -152,6 +153,7 @@ class CustomHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Origin', '*')
         self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
         super().end_headers()
     
     def log_message(self, format, *args):
@@ -164,7 +166,7 @@ def main():
     
     Handler = CustomHTTPRequestHandler
     
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    with socketserver.TCPServer((HOST, PORT), Handler) as httpd:
         url = f"http://localhost:{PORT}"
         print(f"\n{'='*60}")
         print(f"CEO Personal OS - Web Server")
@@ -172,12 +174,6 @@ def main():
         print(f"\nServer running at: {url}")
         print(f"Edit mode: Enabled")
         print(f"\nPress Ctrl+C to stop the server\n")
-        
-        # Open browser automatically
-        try:
-            webbrowser.open(url)
-        except:
-            pass
         
         try:
             httpd.serve_forever()
