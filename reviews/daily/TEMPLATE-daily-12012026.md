@@ -1,4 +1,4 @@
-# Daily Check-In — [DATE]
+# Daily Check-In — 12012026
 
 *Time required: 5 minutes or less*
 
@@ -6,7 +6,7 @@
 
 ## Energy Level
 
-**Overall energy today:** __/10
+**Overall energy today:** 7/10
 
 *(1 = depleted, 10 = fully energized)*
 
@@ -16,7 +16,7 @@
 
 *What moved the needle today? What are you proud of?*
 
-[Your answer — even if it's small]
+Getting bank account sorted.
 
 ---
 
@@ -24,7 +24,7 @@
 
 *What got in the way? What drained you unnecessarily?*
 
-[Your answer — be specific]
+Bank hours caused me a lot of time.
 
 ---
 
@@ -32,7 +32,7 @@
 
 *What are you still carrying that you need to release?*
 
-[A decision, a worry, a task, a conversation — just name it]
+Travelling News - need to do something about that.
 
 ---
 
@@ -40,7 +40,7 @@
 
 *What's the one thing that, if you accomplish it tomorrow, will make the day feel successful?*
 
-[One thing. Not five. One.]
+Figuring out travel schedule thing and figuring out DB fully.
 
 ---
 
@@ -48,7 +48,7 @@
 
 *If you had to describe today in one sentence, what would it be?*
 
-[Optional — skip if you're short on time]
+Interesting 
 
 ---
 
