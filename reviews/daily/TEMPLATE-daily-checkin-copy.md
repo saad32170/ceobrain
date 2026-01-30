@@ -1,12 +1,11 @@
-# Daily Check-In — [DATE]
-
+# Daily Check-In — 30/01/2026
 *Time required: 5 minutes or less*
 
 ---
 
 ## Energy Level
 
-**Overall energy today:** __/10
+**Overall energy today:** 8/10
 
 *(1 = depleted, 10 = fully energized)*
 
@@ -14,7 +13,7 @@
 
 ## One Meaningful Win
 
-*What moved the needle today? What are you proud of?*
+LQ Might have signed up???
 
 [Your answer — even if it's small]
 
@@ -22,7 +21,7 @@
 
 ## One Friction Point
 
-*What got in the way? What drained you unnecessarily?*
+*Waiting for the call - nervousness*
 
 [Your answer — be specific]
 
@@ -30,7 +29,7 @@
 
 ## One Thing to Let Go Of
 
-*What are you still carrying that you need to release?*
+*BANK ACCOUNT FFS AND PAYMENTS*
 
 [A decision, a worry, a task, a conversation — just name it]
 
@@ -38,7 +37,7 @@
 
 ## One Priority for Tomorrow
 
-*What's the one thing that, if you accomplish it tomorrow, will make the day feel successful?*
+*Send Habib videos he needs so work on commentary thing basically*
 
 [One thing. Not five. One.]
 
@@ -46,7 +45,7 @@
 
 ## Optional: One Sentence Summary
 
-*If you had to describe today in one sentence, what would it be?*
+*Relaxed*
 
 [Optional — skip if you're short on time]
 
